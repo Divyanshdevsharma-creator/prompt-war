@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVA - Future of Shopping. Premium futuristic e-commerce storefront for consumer tech, wearables, workspace gear, and lifestyle essentials.">
+  <meta name="theme-color" content="#09090F">
+  <title>NOVA — Future of Shopping</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://images.unsplash.com">
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#catalogue" class="skip-link">Skip to products</a>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Announcement">
+    <div class="container announcement-content">
+      <span class="announcement-pill">Drop 02.0</span>
+      <p class="announcement-text">Upgrade your everyday. Discover NOVA.</p>
+      <span class="announcement-sub">Complimentary shipping on orders over ₹2,499</span>
+    </div>
+  </aside>
+
+  <!-- Live Flash Sale Countdown Strip -->
+  <aside class="flash-sale-strip" aria-label="Limited Time Flash Drop">
+    <div class="container flash-sale-content">
+      <div class="flash-title-wrap">
+        <span class="flash-pulse-dot"></span>
+        <span class="flash-badge">⚡ FLASH DROP</span>
+        <span class="flash-text">Special Demo Offers across Audio &amp; Wearables • Use code <strong>NOVA2026</strong> for extra 15% demo discount</span>
+      </div>
+      <div class="flash-timer-wrap">
+        <span class="flash-timer-label">Ending in:</span>
+        <div class="flash-timer" id="flashTimer" aria-label="Flash sale countdown">
+          <span class="timer-unit"><strong id="timerHours">04</strong>h</span>
+          <span class="timer-sep">:</span>
+          <span class="timer-unit"><strong id="timerMins">18</strong>m</span>
+          <span class="timer-sep">:</span>
+          <span class="timer-unit"><strong id="timerSecs">42</strong>s</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Navigation -->
+  <!-- Sticky Main Navigation with Central Amazon Search Engine -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-link" aria-label="NOVA Homepage">
+        <span class="brand-logo">NOVA</span>
+        <span class="brand-tagline">Future of Shopping</span>
+      </a>
+
+      <!-- Amazon-Style Central Search Engine Bar -->
+      <div class="header-search-bar" role="search" aria-label="Search all products">
+        <div class="header-search-category-select-wrap">
+          <select id="headerCategorySelect" class="header-search-category-select" aria-label="Select Category">
+            <option value="all">All</option>
+            <option value="phones">Phones</option>
+            <option value="laptops">Laptops</option>
+            <option value="electronics">Audio &amp; Electronics</option>
+            <option value="fashion">Fashion</option>
+            <option value="books">Books</option>
+            <option value="accessories">Accessories</option>
+            <option value="smart-home">Smart Home</option>
+          </select>
+          <svg class="header-search-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+
+        <div class="header-search-input-wrap">
+          <input type="search" id="headerSearchInput" class="header-search-input" placeholder="Search 105+ products (e.g. mobile, Sony, iPhone, Nike, books)..." aria-label="Search products" autocomplete="off">
+          <button type="button" class="header-search-clear-btn" id="headerSearchClearBtn" aria-label="Clear search" hidden>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <button type="button" class="header-search-submit-btn" id="headerSearchSubmitBtn" aria-label="Submit search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
+
+        <!-- Live Floating Search Suggestions Dropdown -->
+        <div class="search-suggestions-dropdown header-search-suggestions" id="headerSearchSuggestionsDropdown" role="listbox" aria-label="Search suggestions" hidden></div>
+      </div>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Live Delivery Track Shortcut Button -->
+        <button class="header-track-btn" id="headerTrackBtn" aria-label="Track live delivery">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          <span class="track-btn-text">Track Order</span>
+        </button>
+
+        <!-- Customer Authentication / Profile Button -->
+        <button class="header-user-btn" id="headerUserBtn" aria-label="Account sign in or profile">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <span class="user-btn-text" id="headerUserText">Sign In</span>
+        </button>
+
+        <!-- Wishlist Button -->
+        <button class="icon-btn" id="wishlistTriggerBtn" aria-label="Open wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span class="badge" id="wishlistBadge" aria-label="0 items in wishlist">0</span>
+        </button>
+
+        <!-- Cart Button -->
+        <button class="icon-btn cart-trigger-btn" id="cartTriggerBtn" aria-label="Open cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-2z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="badge" id="cartBadge" aria-label="0 items in cart">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Amazon-Style Sticky Secondary Category Sub-Navbar -->
+  <nav class="sub-navbar" aria-label="Quick Category Access">
+    <div class="container sub-nav-container">
+      <button type="button" class="sub-nav-all-btn category-chip" data-category="all" id="subnavAllCategoriesBtn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        All (105)
+      </button>
+      <div class="sub-nav-links-scroll">
+        <a href="#catalogue" class="sub-nav-link" data-category="phones">📱 Phones &amp; Tablets</a>
+        <a href="#catalogue" class="sub-nav-link" data-category="laptops">💻 Laptops &amp; Computers</a>
+        <a href="#catalogue" class="sub-nav-link" data-category="electronics">🎧 Electronics &amp; Audio</a>
+        <a href="#catalogue" class="sub-nav-link" data-category="fashion">👕 Fashion &amp; Clothes</a>
+        <a href="#catalogue" class="sub-nav-link" data-category="books">📚 Books &amp; Stationery</a>
+        <a href="#catalogue" class="sub-nav-link" data-category="accessories">⌨️ Accessories &amp; Workspace</a>
+        <a href="#catalogue" class="sub-nav-link" data-category="smart-home">🏠 Smart Home</a>
+        <a href="#flashTimer" class="sub-nav-link sub-nav-flash">⚡ Live Flash Deals</a>
+        <a href="#tracking" class="sub-nav-link sub-nav-track" id="subnavTrackLink">🚚 Live Tracking</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Split Hero Section -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-container">
+        <!-- Hero Text (Left Pane) -->
+        <div class="hero-text-pane">
+          <div class="eyebrow-chip">
+            <span class="eyebrow-dot"></span>
+            <span class="eyebrow-text">THE NEXT EVERYDAY</span>
+          </div>
+          <h1 class="hero-title" id="hero-title">Upgrade your everyday.</h1>
+          <p class="hero-copy">
+            Thoughtfully selected tech and lifestyle essentials, designed to make every day feel a little more extraordinary.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#catalogue" class="btn btn-primary" id="heroPrimaryCta">
+              Explore the collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#featured" class="btn btn-secondary" id="heroSecondaryCta">
+              Discover what's new
+            </a>
+          </div>
+          <!-- Trust Metric Highlights -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value">105+</span>
+              <span class="metric-label">Flagship Products</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-value">7</span>
+              <span class="metric-label">Curated Universes</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-value">₹2,499</span>
+              <span class="metric-label">Free Express Level</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual (Right Pane) -->
+        <div class="hero-visual-pane">
+          <div class="hero-glass-card">
+            <div class="hero-glow-layer" aria-hidden="true"></div>
+            <div class="hero-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80" alt="OnePlus 13 5G Flagship in futuristic Emerald Green studio setting" class="hero-featured-image" loading="eager">
+              <div class="hero-card-badge">Flagship Innovation</div>
+            </div>
+            <div class="hero-floating-spec">
+              <div class="spec-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+              </div>
+              <div class="spec-info">
+                <span class="spec-title">OnePlus 13 5G Flagship</span>
+                <span class="spec-price">₹37,699 <span class="spec-orig">₹47,099</span></span>
+              </div>
+              <button class="btn btn-sm btn-accent hero-quick-add" data-id="nova-phn-01" aria-label="Add OnePlus 13 to cart">Quick Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Value Strip -->
+    <section class="benefits-strip" aria-label="Store Benefits">
+      <div class="container benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="benefit-text">
+            <h3 class="benefit-title">Curated Essentials</h3>
+            <p class="benefit-desc">Strictly vetted hardware with futuristic studio aesthetics.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <div class="benefit-text">
+            <h3 class="benefit-title">Free Express Shipping</h3>
+            <p class="benefit-desc">Complimentary dispatch when your cart crosses ₹2,499.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div class="benefit-text">
+            <h3 class="benefit-title">30-Day Evaluation</h3>
+            <p class="benefit-desc">Frictionless simulated trial with risk-free guarantees.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          </div>
+          <div class="benefit-text">
+            <h3 class="benefit-title">Demo Simulation</h3>
+            <p class="benefit-desc">Prompt War handoff edition: no live cards or data collection.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Collection: Trending with NOVA -->
+    <section class="featured-section" id="featured" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-tag">CURATED HIGHLIGHTS</span>
+            <h2 class="section-heading" id="featured-heading">Trending with NOVA</h2>
+            <p class="section-subheading">Everyday essentials worth discovering.</p>
+          </div>
+          <a href="#catalogue" class="link-action" id="viewAllInCatalogueBtn">
+            View full 105-item catalogue
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+        <!-- Featured Grid: populated dynamically with featured: true items only -->
+        <div class="product-grid featured-grid" id="featuredGrid" role="region" aria-label="Trending Products">
+          <!-- Dynamically populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Full Catalogue Section: Explore the Collection -->
+    <section class="catalogue-section" id="catalogue" aria-labelledby="catalogue-heading">
+      <div class="container">
+        <div class="section-header catalogue-header">
+          <div class="section-title-wrap">
+            <span class="section-tag">FULL ARCHIVE</span>
+            <h2 class="section-heading" id="catalogue-heading">Explore the collection</h2>
+            <p class="section-subheading" id="catalogueResultSummary">Showing 105 of 105 products across 7 categories</p>
+          </div>
+        </div>
+
+        <!-- Comprehensive Discovery & Filter Controls -->
+        <div class="filter-controls-panel" role="search" aria-label="Filter and search products">
+          <!-- Top Row: Search Input & Sort Selector -->
+          <div class="filter-primary-row">
+            <!-- Search Bar -->
+            <div class="search-input-wrapper">
+              <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="search" id="searchInput" class="search-input" placeholder="Search by product name, brand, category, or features..." aria-label="Search products in catalogue" autocomplete="off">
+              <button type="button" class="search-clear-btn" id="searchClearBtn" aria-label="Clear search input" hidden>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </button>
+              <div class="search-suggestions-dropdown" id="searchSuggestionsDropdown" role="listbox" aria-label="Search suggestions" hidden></div>
+            </div>
+
+            <!-- Sort By Select -->
+            <div class="sort-select-wrapper">
+              <label for="sortSelect" class="sort-label">Sort by:</label>
+              <select id="sortSelect" class="sort-select" aria-label="Sort products">
+                <option value="featured">Featured (Curated)</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating-desc">Highest Rated</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Middle Row: Category Filter Chips (Horizontally Scrollable on Mobile) -->
+          <div class="category-chips-scroll" role="tablist" aria-label="Filter by category">
+            <button type="button" class="category-chip active" data-category="all" role="tab" aria-selected="true">
+              All <span class="chip-count" id="count-all">105</span>
+            </button>
+            <button type="button" class="category-chip" data-category="phones" role="tab" aria-selected="false">
+              Phones &amp; Tablets <span class="chip-count" id="count-phones">15</span>
+            </button>
+            <button type="button" class="category-chip" data-category="laptops" role="tab" aria-selected="false">
+              Laptops &amp; Computers <span class="chip-count" id="count-laptops">15</span>
+            </button>
+            <button type="button" class="category-chip" data-category="electronics" role="tab" aria-selected="false">
+              Electronics &amp; Audio <span class="chip-count" id="count-electronics">15</span>
+            </button>
+            <button type="button" class="category-chip" data-category="fashion" role="tab" aria-selected="false">
+              Fashion &amp; Clothes <span class="chip-count" id="count-fashion">15</span>
+            </button>
+            <button type="button" class="category-chip" data-category="books" role="tab" aria-selected="false">
+              Books &amp; Stationery <span class="chip-count" id="count-books">15</span>
+            </button>
+            <button type="button" class="category-chip" data-category="accessories" role="tab" aria-selected="false">
+              Accessories <span class="chip-count" id="count-accessories">15</span>
+            </button>
+            <button type="button" class="category-chip" data-category="smart-home" role="tab" aria-selected="false">
+              Smart Home <span class="chip-count" id="count-smart-home">15</span>
+            </button>
+          </div>
+
+          <!-- Bottom Row: Price Range Boundary Slider & Reset Button -->
+          <div class="filter-secondary-row">
+            <div class="price-slider-group">
+              <div class="price-slider-header">
+                <span class="price-slider-label">Max Price Filter:</span>
+                <span class="price-slider-value" id="priceValueDisplay">Up to ₹1,49,999</span>
+              </div>
+              <input type="range" id="priceRangeInput" class="price-range-slider" min="299" max="149999" step="500" value="149999" aria-label="Filter by maximum price">
+              <div class="price-slider-limits">
+                <span>₹299</span>
+                <span>₹1,49,999</span>
+              </div>
+            </div>
+
+            <div class="filter-actions-group">
+              <button type="button" class="btn btn-outline btn-sm" id="resetFiltersBtn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
+                Reset Filters
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Product Grid: 48 Products (Rendered dynamically) -->
+        <div class="product-grid" id="catalogueGrid" role="region" aria-label="Catalogue Grid">
+          <!-- Dynamically populated by script.js -->
+        </div>
+
+        <!-- Empty State UI -->
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-icon-box">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+          </div>
+          <h3 class="empty-title">No products found</h3>
+          <p class="empty-copy">We couldn't find any products matching your active filters. Try broadening your search or resetting constraints.</p>
+          <button type="button" class="btn btn-primary" id="emptyResetBtn">Reset All Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recently Viewed Strip (Hidden if empty) -->
+    <section class="recently-viewed-section" id="recentlyViewedSection" aria-labelledby="recent-heading" hidden>
+      <div class="container">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-tag">PERSONAL HISTORY</span>
+            <h2 class="section-heading" id="recent-heading">Recently viewed</h2>
+            <p class="section-subheading">Revisit items you inspected earlier.</p>
+          </div>
+          <button type="button" class="link-action text-muted-action" id="clearRecentBtn">Clear history</button>
+        </div>
+        <div class="product-grid recent-grid" id="recentGrid">
+          <!-- Dynamically populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo Newsletter Section -->
+    <section class="newsletter-section" aria-labelledby="newsletter-heading">
+      <div class="container newsletter-container">
+        <div class="newsletter-glow" aria-hidden="true"></div>
+        <div class="newsletter-content">
+          <span class="section-tag">EXCLUSIVE DROPS</span>
+          <h2 class="newsletter-heading" id="newsletter-heading">Get the next NOVA drop.</h2>
+          <p class="newsletter-copy">
+            Receive strictly curated engineering updates, private release previews, and hardware insights.
+          </p>
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <div class="newsletter-input-group">
+              <label for="newsletterEmail" class="sr-only">Email address</label>
+              <input type="email" id="newsletterEmail" class="newsletter-input" placeholder="Enter your email address" required autocomplete="email">
+              <button type="submit" class="btn btn-primary newsletter-submit-btn">
+                <span>Subscribe</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+            </div>
+            <!-- Live Inline Feedback Status -->
+            <div class="newsletter-feedback" id="newsletterFeedback" role="status" aria-live="polite"></div>
+            <p class="newsletter-disclaimer">
+              * Demo notice: Client-side validation only. No personal emails are transmitted or saved.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-col brand-col">
+          <a href="#" class="brand-link">
+            <span class="brand-logo">NOVA</span>
+            <span class="brand-tagline">Future of Shopping</span>
+          </a>
+          <p class="footer-desc">
+            NOVA is a premium futuristic e-commerce showcase built for the Prompt War Challenge. 48 unique hardware artifacts engineered for modern digital life.
+          </p>
+          <div class="footer-demo-pill">Prompt War Challenge • Version 2.0</div>
+        </div>
+
+        <!-- Quick Jump Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#catalogue">Full Catalogue (48)</a></li>
+            <li><a href="#featured">Trending Highlights</a></li>
+            <li><button type="button" class="footer-action-link" id="footerWishlistBtn">Your Wishlist</button></li>
+            <li><button type="button" class="footer-action-link" id="footerCartBtn">Your Cart</button></li>
+          </ul>
+        </div>
+
+        <!-- Category Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#catalogue" class="footer-cat-link" data-category="phones">Phones &amp; Tablets (15)</a></li>
+            <li><a href="#catalogue" class="footer-cat-link" data-category="laptops">Laptops &amp; Computers (15)</a></li>
+            <li><a href="#catalogue" class="footer-cat-link" data-category="electronics">Electronics &amp; Audio (15)</a></li>
+            <li><a href="#catalogue" class="footer-cat-link" data-category="fashion">Fashion &amp; Clothes (15)</a></li>
+            <li><a href="#catalogue" class="footer-cat-link" data-category="books">Books &amp; Stationery (15)</a></li>
+            <li><a href="#catalogue" class="footer-cat-link" data-category="accessories">Accessories &amp; Workspace (15)</a></li>
+            <li><a href="#catalogue" class="footer-cat-link" data-category="smart-home">Smart Home &amp; Appliances (15)</a></li>
+          </ul>
+        </div>
+
+        <!-- Store Demo Policies -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Shopping Demo</h4>
+          <ul class="footer-links">
+            <li><span class="footer-text-note">Free Shipping Threshold: ₹2,499</span></li>
+            <li><span class="footer-text-note">No Account / Guest Only</span></li>
+            <li><span class="footer-text-note">Zero Live Payments Taken</span></li>
+            <li><span class="footer-text-note">Simulated Client-Side State</span></li>
+            <li><span class="footer-text-note">Defensive LocalStorage</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="footer-copy">
+          &copy; <span id="currentYear">2026</span> NOVA — Future of Shopping. All demonstration rights reserved.
+        </p>
+        <p class="footer-subtext">
+          Vanilla HTML5 • CSS3 • Modern JavaScript. Zero external frameworks or bundlers.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Fixed Bottom Navigation Bar (<768px) -->
+  <nav class="mobile-bottom-nav" aria-label="Mobile Navigation">
+    <div class="mobile-nav-container">
+      <a href="#hero" class="mobile-nav-item active" id="mobileNavHome">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        <span class="mobile-nav-label">Home</span>
+      </a>
+
+      <a href="#catalogue" class="mobile-nav-item" id="mobileNavShop">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        <span class="mobile-nav-label">Shop</span>
+      </a>
+
+      <button type="button" class="mobile-nav-item" id="mobileNavWishlist" aria-label="Open Wishlist">
+        <div class="mobile-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span class="mobile-badge" id="mobileWishlistBadge">0</span>
+        </div>
+        <span class="mobile-nav-label">Wishlist</span>
+      </button>
+
+      <button type="button" class="mobile-nav-item" id="mobileNavCart" aria-label="Open Cart">
+        <div class="mobile-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-2z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="mobile-badge" id="mobileCartBadge">0</span>
+        </div>
+        <span class="mobile-nav-label">Cart</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- OVERLAYS & MODALS LAYER -->
+
+  <!-- Cart Slide-Over Drawer -->
+  <div class="drawer-backdrop" id="cartBackdrop" aria-hidden="true"></div>
+  <aside class="drawer cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartDrawerTitle" hidden>
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <h3 class="drawer-title" id="cartDrawerTitle">Your Cart</h3>
+        <span class="drawer-count-pill" id="cartDrawerCount">0 items</span>
+      </div>
+      <button type="button" class="drawer-close-btn" id="closeCartBtn" aria-label="Close cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <!-- Free Shipping Progress Tracker -->
+    <div class="shipping-progress-box">
+      <div class="shipping-progress-header">
+        <span class="shipping-progress-text" id="shippingStatusText">Add ₹2,499 more for Free Express Delivery</span>
+        <span class="shipping-threshold-target">Threshold: ₹2,499</span>
+      </div>
+      <div class="shipping-progress-track">
+        <div class="shipping-progress-fill" id="shippingProgressBar" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Cart Items Scrollable Container -->
+    <div class="drawer-body" id="cartItemsList" role="region" aria-label="Cart items list">
+      <!-- Dynamically filled with cart items or empty state -->
+    </div>
+
+    <!-- Cart Footer & Subtotal -->
+    <div class="drawer-footer" id="cartDrawerFooter">
+      <div class="cart-summary-rows">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span class="summary-val" id="cartSubtotalVal">₹0</span>
+        </div>
+        <div class="summary-row">
+          <span>Estimated Delivery</span>
+          <span class="summary-val text-accent" id="cartShippingVal">Calculated above</span>
+        </div>
+        <div class="summary-row total-row">
+          <span>Estimated Total</span>
+          <span class="summary-val text-primary" id="cartTotalVal">₹0</span>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-block" id="proceedToCheckoutBtn">
+        Proceed to Demo Checkout
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </button>
+      <p class="drawer-footnote">
+        * Demo checkout only. No real charges or payment collection.
+      </p>
+    </div>
+  </aside>
+
+  <!-- Dedicated Wishlist Slide-Over Drawer -->
+  <div class="drawer-backdrop" id="wishlistBackdrop" aria-hidden="true"></div>
+  <aside class="drawer wishlist-drawer" id="wishlistDrawer" role="dialog" aria-modal="true" aria-labelledby="wishlistDrawerTitle" hidden>
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <h3 class="drawer-title" id="wishlistDrawerTitle">Your Wishlist</h3>
+        <span class="drawer-count-pill" id="wishlistDrawerCount">0 saved</span>
+      </div>
+      <button type="button" class="drawer-close-btn" id="closeWishlistBtn" aria-label="Close wishlist">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="wishlistItemsList" role="region" aria-label="Wishlist items list">
+      <!-- Dynamically filled with wishlisted items -->
+    </div>
+  </aside>
+
+  <!-- Quick View Modal Dialog -->
+  <div class="modal-backdrop" id="quickViewBackdrop" aria-hidden="true"></div>
+  <div class="modal quick-view-modal" id="quickViewModal" role="dialog" aria-modal="true" aria-labelledby="quickViewTitle" hidden>
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="closeQuickViewBtn" aria-label="Close quick view modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="quick-view-grid" id="quickViewContent">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Demo Checkout Simulation Modal Dialog -->
+  <div class="modal-backdrop" id="checkoutBackdrop" aria-hidden="true"></div>
+  <div class="modal checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutModalTitle" hidden>
+    <div class="modal-card checkout-card">
+      <button type="button" class="modal-close-btn" id="closeCheckoutBtn" aria-label="Close checkout modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="checkout-modal-content" id="checkoutModalContent">
+        <!-- Swapped between Order Review Form and Success Confirmation -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Product Comparison Dock -->
+  <aside class="floating-compare-dock" id="floatingCompareDock" role="region" aria-label="Product comparison dock" hidden>
+    <div class="container compare-dock-content">
+      <div class="compare-info-group">
+        <span class="compare-badge" id="compareBadgeCount">0 / 3</span>
+        <div class="compare-titles">
+          <strong class="compare-main-title">Compare Artifacts</strong>
+          <span class="compare-subtitle">Select up to 3 products for head-to-head tech benchmark</span>
+        </div>
+      </div>
+      <div class="compare-preview-pills" id="comparePreviewPills">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="compare-actions-group">
+        <button type="button" class="btn btn-primary btn-sm" id="launchCompareBtn">Benchmark Now</button>
+        <button type="button" class="btn btn-outline btn-sm" id="clearCompareBtn">Clear</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Customer Authentication / Login Modal Dialog -->
+  <div class="modal-backdrop" id="authBackdrop" aria-hidden="true"></div>
+  <div class="modal auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authModalTitle" hidden>
+    <div class="modal-card auth-card">
+      <button type="button" class="modal-close-btn" id="closeAuthBtn" aria-label="Close login modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="auth-header">
+        <div class="auth-brand-badge">NOVA SECURE GATEWAY</div>
+        <h3 class="auth-title" id="authModalTitle">Customer Account</h3>
+        <p class="auth-subtitle" id="authModalSubtitle">Create an account or sign in with Gmail to place orders &amp; track deliveries live.</p>
+      </div>
+
+      <!-- Navigation Tabs: Create Account vs Sign In -->
+      <div class="auth-tabs" id="authTabsRow" role="tablist">
+        <button type="button" class="auth-tab active" id="tabRegisterBtn" role="tab" aria-selected="true">
+          📝 Create Account
+        </button>
+        <button type="button" class="auth-tab" id="tabLoginBtn" role="tab" aria-selected="false">
+          🔑 Sign In
+        </button>
+      </div>
+
+      <!-- VIEW 1: CREATE ACCOUNT (Sign Up) -->
+      <div class="auth-view-panel" id="authRegisterView">
+        <div class="auth-demo-helper-chip" id="btnPrefillRegisterDemo" title="Click to pre-fill sample details">
+          <span>⚡ <strong>Quick Fill:</strong> Divyansh Dev Sharma (Gmail)</span>
+          <span style="font-size:10px;text-decoration:underline;">Click to Auto-fill</span>
+        </div>
+
+        <form id="authRegisterForm" novalidate>
+          <div class="form-group" style="margin-bottom:12px;">
+            <label for="regNameInput" class="form-label">Full Name</label>
+            <input type="text" id="regNameInput" class="form-input" placeholder="e.g. Divyansh Dev Sharma" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom:12px;">
+            <label for="regEmailInput" class="form-label">Email / Gmail Address</label>
+            <input type="email" id="regEmailInput" class="form-input" placeholder="e.g. sharmadivyanshdev@gmail.com" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom:12px;">
+            <label for="regPasswordInput" class="form-label">Password</label>
+            <input type="password" id="regPasswordInput" class="form-input" placeholder="Create a secure password" value="Nova@2026" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom:16px;">
+            <label for="regAddressInput" class="form-label">Delivery Address / City</label>
+            <input type="text" id="regAddressInput" class="form-input" placeholder="e.g. Badlapur, Uttar Pradesh" value="Badlapur, Uttar Pradesh">
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="btnSubmitRegister">
+            ✨ Create Account &amp; Proceed to Order
+          </button>
+        </form>
+
+        <div class="auth-footer-note" style="margin-top:14px;text-align:center;">
+          <span style="font-size:12px;color:var(--color-text-muted);">Already registered?</span>
+          <button type="button" class="auth-switch-link" id="linkSwitchToLogin">Sign In to your account</button>
+        </div>
+      </div>
+
+      <!-- VIEW 2: SIGN IN (Login) -->
+      <div class="auth-view-panel" id="authLoginView" hidden>
+        <div class="auth-demo-helper-chip" id="btnPrefillLoginDemo" title="Click to fill registered credentials">
+          <span>⚡ <strong>Quick Fill:</strong> sharmadivyanshdev@gmail.com</span>
+          <span style="font-size:10px;text-decoration:underline;">Click to Auto-fill</span>
+        </div>
+
+        <form id="authLoginForm" novalidate>
+          <div class="form-group" style="margin-bottom:12px;">
+            <label for="loginEmailInput" class="form-label">Email / Gmail Address</label>
+            <input type="email" id="loginEmailInput" class="form-input" placeholder="e.g. sharmadivyanshdev@gmail.com" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom:16px;">
+            <label for="loginPasswordInput" class="form-label">Password</label>
+            <input type="password" id="loginPasswordInput" class="form-input" placeholder="Enter your password" value="Nova@2026" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="btnSubmitLogin">
+            🚀 Sign In &amp; Continue
+          </button>
+        </form>
+
+        <div class="auth-footer-note" style="margin-top:14px;text-align:center;">
+          <span style="font-size:12px;color:var(--color-text-muted);">New customer?</span>
+          <button type="button" class="auth-switch-link" id="linkSwitchToRegister">Create an Account</button>
+        </div>
+      </div>
+
+      <!-- VIEW 3: ACTIVE LOGGED IN PROFILE (When clicking User profile in header) -->
+      <div class="auth-view-panel" id="authProfileView" hidden>
+        <div class="auth-fast-profile" id="authActiveProfileCard">
+          <div class="fast-profile-left">
+            <div class="fast-profile-avatar" id="activeProfileAvatar">DS</div>
+            <div class="fast-profile-info">
+              <strong class="fast-profile-name" id="activeProfileName">Divyansh Dev Sharma</strong>
+              <span class="fast-profile-email" id="activeProfileEmail">sharmadivyanshdev@gmail.com</span>
+              <span class="fast-profile-badge">👑 VIP Gold Member • Active Session</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-size:12px;color:var(--color-text-muted);margin-bottom:14px;line-height:1.5;">
+          📍 <strong>Registered Delivery Address:</strong><br>
+          <span id="activeProfileAddress">Badlapur, Uttar Pradesh</span>
+        </div>
+
+        <button type="button" class="btn btn-outline btn-block" id="btnSignOutUser" style="color:var(--color-danger);border-color:rgba(239,68,68,0.4);">
+          🚪 Sign Out of Account
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Interactive Map Location Selector Modal Dialog -->
+  <div class="modal-backdrop" id="mapPickerBackdrop" aria-hidden="true"></div>
+  <div class="modal map-picker-modal" id="mapPickerModal" role="dialog" aria-modal="true" aria-labelledby="mapPickerTitle" hidden>
+    <div class="modal-card map-picker-card">
+      <button type="button" class="modal-close-btn" id="closeMapPickerBtn" aria-label="Close map picker">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="map-picker-header">
+        <div class="section-tag">PRECISION GPS DELIVERY LOCATOR</div>
+        <h3 class="section-heading" id="mapPickerTitle" style="font-size:22px;">Select Delivery Pinpoint on Map</h3>
+        <p style="font-size:12px;color:var(--color-text-muted);">Click anywhere on the interactive map or select a city hub to pin your delivery coordinates.</p>
+      </div>
+
+      <!-- Quick Location Hub Chips -->
+      <div class="map-quick-cities" role="radiogroup" aria-label="Quick Cities">
+        <button type="button" class="map-city-chip active" data-city="Bibiya Karan pur, Uttar Pradesh" data-lat="28.3670" data-lng="79.4304" data-pin="243001">📍 Bibiya Karan pur (UP)</button>
+        <button type="button" class="map-city-chip" data-city="Connaught Place, New Delhi" data-lat="28.6304" data-lng="77.2177" data-pin="110001">📍 Delhi NCR (110001)</button>
+        <button type="button" class="map-city-chip" data-city="Bandra West, Mumbai" data-lat="19.0596" data-lng="72.8295" data-pin="400050">📍 Mumbai (400050)</button>
+        <button type="button" class="map-city-chip" data-city="Koramangala, Bengaluru" data-lat="12.9352" data-lng="77.6245" data-pin="560034">📍 Bengaluru (560034)</button>
+      </div>
+
+      <!-- Interactive Map Simulation Canvas -->
+      <div class="interactive-map-view" id="interactiveMapView">
+        <div class="map-grid-canvas" id="mapGridCanvas">
+          <!-- Animated Radar Rings -->
+          <div class="map-radar-circle"></div>
+          <!-- Road Grid Visuals -->
+          <svg class="map-roads-svg" viewBox="0 0 600 350" preserveAspectRatio="none">
+            <path d="M 0 100 Q 150 120 300 80 T 600 120" stroke="rgba(139, 92, 246, 0.45)" stroke-width="4" fill="none"></path>
+            <path d="M 0 240 Q 200 200 400 260 T 600 220" stroke="rgba(139, 92, 246, 0.35)" stroke-width="3" fill="none"></path>
+            <path d="M 120 0 Q 140 180 110 350" stroke="rgba(6, 182, 212, 0.4)" stroke-width="3" fill="none"></path>
+            <path d="M 450 0 Q 420 150 470 350" stroke="rgba(6, 182, 212, 0.4)" stroke-width="3" fill="none"></path>
+            <line x1="0" y1="180" x2="600" y2="180" stroke="rgba(255,255,255,0.12)" stroke-width="2" stroke-dasharray="6,6"></line>
+            <line x1="300" y1="0" x2="300" y2="350" stroke="rgba(255,255,255,0.12)" stroke-width="2" stroke-dasharray="6,6"></line>
+          </svg>
+
+          <!-- Interactive Target Pin Marker -->
+          <div class="map-target-pin" id="mapTargetPin" style="top: 50%; left: 50%;">
+            <div class="pin-pulse-wave"></div>
+            <div class="pin-icon-marker">📍</div>
+            <div class="pin-tooltip" id="pinTooltip">Bibiya Karan pur, UP</div>
+          </div>
+        </div>
+
+        <div class="map-overlay-info">
+          <div class="map-coords-badge" id="mapCoordsBadge">LAT: 28.3670° N | LON: 79.4304° E</div>
+          <div class="map-hint">Click anywhere on the map grid to relocate delivery pin</div>
+        </div>
+      </div>
+
+      <!-- Selected Address Bar & Confirmation -->
+      <div class="map-selected-bar">
+        <div class="map-selected-text">
+          <span class="map-selected-label">Selected Delivery Location:</span>
+          <strong class="map-selected-address" id="mapSelectedAddressText">Bibiya Karan pur, Uttar Pradesh • PIN: 243001</strong>
+        </div>
+        <button type="button" class="btn btn-primary" id="btnConfirmMapLocation">
+          Use This Location
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live Delivery Order Tracking Modal Dialog -->
+  <div class="modal-backdrop" id="trackingBackdrop" aria-hidden="true"></div>
+  <div class="modal tracking-modal" id="orderTrackingModal" role="dialog" aria-modal="true" aria-labelledby="trackingModalTitle" hidden>
+    <div class="modal-card tracking-card">
+      <button type="button" class="modal-close-btn" id="closeTrackingBtn" aria-label="Close tracking modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="tracking-header">
+        <div class="tracking-live-pill">
+          <span class="live-dot-pulse"></span>
+          LIVE EXPRESS DISPATCH
+        </div>
+        <h3 class="section-heading" id="trackingModalTitle" style="font-size:24px;">Real-Time Delivery Tracking</h3>
+        <div class="tracking-meta-row">
+          <span>Order ID: <strong id="trackingOrderId" style="color:#fff;">NOVA-ORD-849201</strong></span>
+          <span>•</span>
+          <span style="color:var(--color-success);font-weight:700;">Guaranteed Delivery Tomorrow, 11:00 AM</span>
+        </div>
+      </div>
+
+      <!-- Live Animated Map Route Visualizer -->
+      <div class="tracking-route-map">
+        <div class="route-map-bg">
+          <!-- Hub Node (Left) -->
+          <div class="route-node hub-node">
+            <div class="node-icon">🏭</div>
+            <span class="node-title">NOVA Fulfillment Hub</span>
+            <span class="node-sub">Dispatched</span>
+          </div>
+
+          <!-- Animated Transit Track -->
+          <div class="route-line-track">
+            <div class="route-line-fill"></div>
+            <!-- Moving Delivery Van -->
+            <div class="moving-delivery-van" id="movingDeliveryVan">
+              <span class="van-radar-wave"></span>
+              <span class="van-icon">🚚</span>
+              <span class="van-badge">Bluedart Priority</span>
+            </div>
+          </div>
+
+          <!-- Destination Node (Right) -->
+          <div class="route-node dest-node">
+            <div class="node-icon">🏠</div>
+            <span class="node-title" id="trackingDestTitle">Bibiya Karan pur</span>
+            <span class="node-sub">Destination</span>
+          </div>
+        </div>
+
+        <div class="tracking-map-footer">
+          <div class="courier-profile-card">
+            <div class="courier-avatar">RK</div>
+            <div class="courier-details">
+              <strong>Pilot: Ramesh Kumar (4.9★)</strong>
+              <span>EV Cargo Van #DL-04-EV-2049 • Bluedart Priority Air</span>
+            </div>
+          </div>
+          <div class="courier-actions">
+            <button type="button" class="btn btn-sm btn-outline" id="btnCallPilot">📞 Call Pilot</button>
+            <button type="button" class="btn btn-sm btn-outline" id="btnInstructions">💬 Instructions</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step-by-Step Live Tracking Timeline -->
+      <div class="tracking-timeline">
+        <div class="timeline-step completed">
+          <div class="step-icon">✓</div>
+          <div class="step-content">
+            <strong class="step-title">Order Placed &amp; Verified</strong>
+            <span class="step-time">Just Now • Instant Payment Verified</span>
+          </div>
+        </div>
+
+        <div class="timeline-step completed">
+          <div class="step-icon">✓</div>
+          <div class="step-content">
+            <strong class="step-title">Packed &amp; Multi-Point QC Passed</strong>
+            <span class="step-time">NOVA Automated Robotics Hub</span>
+          </div>
+        </div>
+
+        <div class="timeline-step active">
+          <div class="step-icon-active"><span class="active-pulse-dot"></span></div>
+          <div class="step-content">
+            <strong class="step-title" style="color:var(--color-accent);">In Transit • On the Road</strong>
+            <span class="step-time">Courier Pilot moving towards your destination</span>
+          </div>
+        </div>
+
+        <div class="timeline-step upcoming">
+          <div class="step-icon-circle">4</div>
+          <div class="step-content">
+            <strong class="step-title" style="color:var(--color-text-muted);">Out for Final Delivery</strong>
+            <span class="step-time">Estimated Tomorrow by 11:00 AM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="tracking-actions-row">
+        <button type="button" class="btn btn-outline" id="btnDownloadInvoice">
+          📄 Download Tax Invoice
+        </button>
+        <button type="button" class="btn btn-primary" id="btnCloseTrackingModal">
+          Continue Shopping
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Comparison Modal Dialog -->
+  <div class="modal-backdrop" id="compareBackdrop" aria-hidden="true"></div>
+  <div class="modal compare-modal" id="compareModal" role="dialog" aria-modal="true" aria-labelledby="compareModalTitle" hidden>
+    <div class="modal-card compare-modal-card">
+      <button type="button" class="modal-close-btn" id="closeCompareBtn" aria-label="Close compare modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="compare-modal-header">
+        <div class="section-tag">SIDE-BY-SIDE BENCHMARK</div>
+        <h3 class="section-heading" id="compareModalTitle" style="font-size:24px;">Product Specification Comparison</h3>
+        <p style="font-size:12px;color:var(--color-text-muted);">Comparing technical specifications, hardware performance, and live pricing.</p>
+      </div>
+      <div class="compare-table-container" id="compareTableContainer">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Accessible Toast Notifications Container -->
+  <div class="toast-container" id="toastContainer" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Application Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>
