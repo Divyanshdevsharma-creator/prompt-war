@@ -3860,12 +3860,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1150,
     "boughtPastMonth": "1.2k+",
-    "image": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
     "badge": "Denim Grail",
     "featured": false,
     "description": "14.5oz Okayama vintage shuttle-loom selvedge denim, red-line ID, copper donut buttons, custom fade canvas.",
     "gallery": [
-      "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
@@ -3874,7 +3874,7 @@ const PRODUCTS = [
       {
         "name": "Deep Indigo",
         "hex": "#1A243D",
-        "image": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80"
+        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
       },
       {
         "name": "Washed Black",
@@ -4135,7 +4135,7 @@ const PRODUCTS = [
     "description": "Full-grain Tuscan calfskin, Goodyear welted construction, natural crepe and Vibram rubber sole, dual pull tabs.",
     "gallery": [
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
     ],
@@ -4148,7 +4148,7 @@ const PRODUCTS = [
       {
         "name": "Onyx Black Leather",
         "hex": "#1A1A1A",
-        "image": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80"
+        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
       }
     ],
     "variants": {
@@ -4583,7 +4583,7 @@ const PRODUCTS = [
       {
         "name": "Matte Carbon",
         "hex": "#2B2C2E",
-        "image": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80"
+        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
       },
       {
         "name": "Dark Olive",
@@ -4662,7 +4662,7 @@ const PRODUCTS = [
     "description": "Full-grain Italian nappa leather, vintage yellowed rubber cupsole, perforated toe box, terry towel lining.",
     "gallery": [
       "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
     ],
@@ -4675,7 +4675,7 @@ const PRODUCTS = [
       {
         "name": "Black & Vintage Sole",
         "hex": "#222325",
-        "image": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80"
+        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
       }
     ],
     "variants": {
@@ -4838,7 +4838,7 @@ const PRODUCTS = [
     "gallery": [
       "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80"
     ],
     "colors": [
@@ -5163,12 +5163,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 6420,
     "boughtPastMonth": "5.1k+",
-    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3edd7?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=800&q=80",
     "badge": "The Big Data Bible",
     "featured": true,
     "description": "The definitive guide to distributed systems, replication, partitioning, consistency, and storage engines.",
     "gallery": [
-      "https://images.unsplash.com/photo-1532012164546-f432f2e3edd7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80"
@@ -5315,12 +5315,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1280,
     "boughtPastMonth": "1.1k+",
-    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80",
     "badge": "Collector Tome",
     "featured": true,
     "description": "Massive oversized coffee-table hardcover, 368 pages of Night City architecture, vehicles, and concept art.",
     "gallery": [
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80"
@@ -5968,12 +5968,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1890,
     "boughtPastMonth": "2.1k+",
-    "image": "https://images.unsplash.com/photo-1585336261026-418668702330?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=800&q=80",
     "badge": "Architect Tool",
     "featured": true,
     "description": "Full metal brass body, hexagonal barrel, knurled grip, fixed 4mm lead guidance sleeve, matte finish.",
     "gallery": [
-      "https://images.unsplash.com/photo-1585336261026-418668702330?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80"
@@ -6680,12 +6680,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1340,
     "boughtPastMonth": "1.4k+",
-    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de58a5b?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
     "badge": "Zero Glare",
     "featured": true,
     "description": "Asymmetric optical design, wireless rotary control puck, back ambient back-light, curved monitor clamp.",
     "gallery": [
-      "https://images.unsplash.com/photo-1517430816045-df4b7de58a5b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
@@ -7129,12 +7129,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 720,
     "boughtPastMonth": "680+",
-    "image": "https://images.unsplash.com/photo-1580481077111-9e79b9b1d8e1?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=800&q=80",
     "badge": "Ergonomic King",
     "featured": true,
     "description": "Designed by Bill Stumpf & Jeff Weber. Pixelated Support matrix, fully adjustable arms, 12-year warranty.",
     "gallery": [
-      "https://images.unsplash.com/photo-1580481077111-9e79b9b1d8e1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80"
@@ -7143,7 +7143,7 @@ const PRODUCTS = [
       {
         "name": "Sync Black & Cyan Frame",
         "hex": "#111D25",
-        "image": "https://images.unsplash.com/photo-1580481077195-c3a821a58875?auto=format&fit=crop&w=800&q=80"
+        "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
       }
     ],
     "variants": {
@@ -7200,12 +7200,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 940,
     "boughtPastMonth": "820+",
-    "image": "https://images.unsplash.com/photo-1609592426867-0c7f12e873d9?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
     "badge": "Cyberpunk Power",
     "featured": true,
     "description": "Transparent cyberpunk casing, IPS smart digital display showing battery voltage, thermals, and wattage.",
     "gallery": [
-      "https://images.unsplash.com/photo-1609592426867-0c7f12e873d9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80"
@@ -8661,10 +8661,12 @@ function hydrateStateFromStorage() {
   }
   updateHeaderUserDisplay();
 
-  // 5. Latest Order & Tracking
-  const storedOrder = Storage.get('nova-latest-order', null);
-  if (storedOrder && typeof storedOrder === 'object') {
-    AppState.latestOrder = storedOrder;
+  // 5. Latest Order & Tracking (Active ONLY when logged in and customer actually ordered)
+  if (AppState.user && AppState.user.isLoggedIn) {
+    const storedOrder = Storage.get('nova-latest-order', null);
+    AppState.latestOrder = (storedOrder && typeof storedOrder === 'object') ? storedOrder : null;
+  } else {
+    AppState.latestOrder = null;
   }
 }
 
@@ -10256,7 +10258,9 @@ function signOutCustomer() {
     phone: '',
     address: ''
   };
+  AppState.latestOrder = null;
   Storage.remove('nova-active-user');
+  Storage.remove('nova-latest-order');
   updateHeaderUserDisplay();
   showToast('🚪 Signed out of account');
   closeAllOverlays();
@@ -10489,22 +10493,19 @@ function confirmMapLocation() {
 function openOrderTrackingModal(order = null) {
   closeAllOverlays();
 
-  const userLoc = (AppState.selectedMapLocation && AppState.selectedMapLocation.address) || (AppState.user && AppState.user.address) || 'Your Delivery Address';
-  const userName = (AppState.user && AppState.user.name) || 'Customer';
-  const userEmail = (AppState.user && AppState.user.email) || 'customer@gmail.com';
+  // 1. Authentication Gate: Customer MUST be logged in
+  if (!AppState.user || !AppState.user.isLoggedIn) {
+    showToast('🔒 Please sign in to your account to view live tracking.', 'info');
+    openAuthModal(null, 'login');
+    return;
+  }
 
-  const activeOrder = order || AppState.latestOrder || {
-    id: 'NOVA-ORD-849201',
-    destination: userLoc,
-    customerName: userName,
-    customerEmail: userEmail,
-    totalAmount: 75299,
-    eta: 'Tomorrow by 11:00 AM',
-    pilotName: 'Ramesh Kumar (4.9★)',
-    pilotPhone: '+91 98201 44820',
-    vehicle: 'EV Cargo Van #DL-04-EV-2049 • Bluedart Priority Air',
-    items: [{ name: 'Apple iPhone 16 Pro Max (Desert Titanium)', qty: 1, price: 75299 }]
-  };
+  // 2. Active Order Gate: Customer MUST have placed an order
+  const activeOrder = order || AppState.latestOrder;
+  if (!activeOrder) {
+    showToast('📦 No active orders yet! Place an order to track live dispatch.', 'info');
+    return;
+  }
 
   const modal = document.getElementById('orderTrackingModal');
   const backdrop = document.getElementById('trackingBackdrop');

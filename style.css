@@ -82,6 +82,8 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 [hidden] {
@@ -445,7 +447,8 @@ button {
 
 @media (max-width: 767px) {
   .site-header {
-    height: var(--header-height-mobile);
+    height: auto;
+    padding: 8px 0;
   }
 }
 
@@ -454,6 +457,21 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: var(--space-4);
+}
+
+@media (max-width: 767px) {
+  .header-container {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .brand-link {
+    order: 1;
+  }
+  .header-actions {
+    order: 2;
+    margin-left: auto;
+    gap: 6px;
+  }
 }
 
 /* Brand Link */
@@ -619,8 +637,12 @@ button {
     display: none;
   }
   .header-search-bar {
-    margin: 0 6px;
-    height: 38px;
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    margin: 4px 0 0 0;
+    height: 40px;
+    flex: 1 1 100%;
   }
 }
 
@@ -1425,14 +1447,21 @@ button {
 @media (max-width: 960px) {
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
+    gap: 12px;
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (max-width: 330px) {
   .product-grid {
     grid-template-columns: 1fr;
-    gap: 14px;
+    gap: 12px;
   }
 }
 
@@ -1452,9 +1481,10 @@ button {
   transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-@media (max-width: 479px) {
+@media (max-width: 600px) {
   .product-card {
     padding: 10px;
+    border-radius: 12px;
   }
 }
 
@@ -1723,6 +1753,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 500px;
+  max-width: 100%;
   height: 250px;
   background: radial-gradient(ellipse, var(--color-primary-glow) 0%, transparent 70%);
   pointer-events: none;
@@ -3240,6 +3271,14 @@ button {
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--color-border);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+@media (max-width: 767px) {
+  .sub-navbar {
+    top: auto;
+  }
 }
 
 .sub-nav-container {
@@ -3248,7 +3287,11 @@ button {
   gap: 12px;
   padding: 8px var(--space-4);
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 .sub-nav-container::-webkit-scrollbar {
   display: none;
@@ -3281,6 +3324,7 @@ button {
   align-items: center;
   gap: 10px;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .sub-nav-link {
