@@ -329,12 +329,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 1890,
     "boughtPastMonth": "1.8k+",
-    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
     "badge": "Editor’s Choice",
     "featured": false,
     "description": "Google Tensor G4, Gemini Live AI integration, Pro triple camera with Super Res Zoom, 16GB RAM.",
     "gallery": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -511,12 +511,12 @@ const PRODUCTS = [
     "rating": 4.6,
     "reviewCount": 2190,
     "boughtPastMonth": "2.1k+",
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=800&q=80",
     "badge": "Trendsetter",
     "featured": false,
     "description": "Iconic Glyph Interface with programmable LED light strips, Nothing OS 2.5, Snapdragon 8+ Gen 1.",
     "gallery": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -681,12 +681,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 860,
     "boughtPastMonth": "720+",
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=800&q=80",
     "badge": "Camera Beast",
     "featured": false,
     "description": "Quad 50MP Leica Summilux lens system, 1-inch LYT-900 sensor, stepless variable aperture f/1.63-f/4.0.",
     "gallery": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -852,12 +852,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 720,
     "boughtPastMonth": "610+",
-    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=800&q=80",
     "badge": "Slim Foldable",
     "featured": false,
     "description": "Thinnest book foldable with Flexion Hinge, Dual 120Hz ProXDR displays, Sony LYT-T808 Pixel Stacked sensor.",
     "gallery": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -931,12 +931,12 @@ const PRODUCTS = [
     "rating": 4.6,
     "reviewCount": 950,
     "boughtPastMonth": "820+",
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80",
     "badge": "Pantone Certified",
     "featured": false,
     "description": "Real Nordic Wood back panel, Snapdragon 8s Gen 3, 125W TurboPower charging, Pantone Validated cameras.",
     "gallery": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -1010,12 +1010,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 620,
     "boughtPastMonth": "490+",
-    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1533228876829-65c94e7b5025?auto=format&fit=crop&w=800&q=80",
     "badge": "Gaming Monster",
     "featured": false,
     "description": "Snapdragon 8 Gen 3, AniMe Vision programmable mini-LED back, AirTrigger ultrasonic touch sensors.",
     "gallery": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1533228876829-65c94e7b5025?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -1088,12 +1088,12 @@ const PRODUCTS = [
     "rating": 4.6,
     "reviewCount": 2340,
     "boughtPastMonth": "2.8k+",
-    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=800&q=80",
     "badge": "Best Value",
     "featured": false,
     "description": "Google Tensor G3, 120Hz Actua display, Best Take, Magic Audio Eraser, 7 years of OS support.",
     "gallery": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -1176,12 +1176,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 810,
     "boughtPastMonth": "680+",
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
     "badge": "Gigantic Canvas",
     "featured": false,
     "description": "Massive 14.6\" Dynamic AMOLED 2X, Snapdragon 8 Gen 2, IP68 water resistance, S Pen included in box.",
     "gallery": [
-      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80"
@@ -1259,12 +1259,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 3100,
     "boughtPastMonth": "3.8k+",
-    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
     "badge": "Battery Champion",
     "featured": false,
     "description": "Dynamic Island, 48MP main camera, 2x Telephoto, color-infused durable glass, all-day battery beast.",
     "gallery": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=800&q=80"
@@ -1894,12 +1894,12 @@ const PRODUCTS = [
     "rating": 4.6,
     "reviewCount": 520,
     "boughtPastMonth": "410+",
-    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
     "badge": "Weightless Giant",
     "featured": false,
     "description": "Huge 17-inch WQXGA IPS screen in an impossible 1.35 kg magnesium alloy body, Intel Core Ultra 7.",
     "gallery": [
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
@@ -1967,12 +1967,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 290,
     "boughtPastMonth": "310+",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=800&q=80",
     "badge": "Workstation Beast",
     "featured": false,
     "description": "M2 Ultra 24-Core CPU, 76-Core GPU, 32-Core Neural Engine, 64GB Unified Memory, up to 8x 4K displays.",
     "gallery": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
@@ -2040,12 +2040,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 380,
     "boughtPastMonth": "320+",
-    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
     "badge": "Studio Transformer",
     "featured": false,
     "description": "Intel Core i7-13700H, RTX 4060, Dynamic Woven Hinge, 14.4\" 120Hz PixelSense Flow touchscreen.",
     "gallery": [
-      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
@@ -2113,12 +2113,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 260,
     "boughtPastMonth": "210+",
-    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
     "badge": "Desktop Replacement",
     "featured": false,
     "description": "Intel Core i9-14900HX, RTX 4090 16GB, Cryo-tech cooling with Element 31 thermal interface, CherryMX keys.",
     "gallery": [
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
@@ -2264,12 +2264,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 640,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80",
     "badge": "Dual Screen Genius",
     "featured": false,
     "description": "Dual 14-inch 3K 120Hz OLED touchscreens, detachable Bluetooth keyboard, built-in kickstand, Intel Ultra 9.",
     "gallery": [
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
@@ -2337,12 +2337,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1850,
     "boughtPastMonth": "1.6k+",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1595044426077-d36d9236d54a?auto=format&fit=crop&w=800&q=80",
     "badge": "Pocket Workhorse",
     "featured": false,
     "description": "M2 Pro 10-core CPU, 16-core GPU, 16GB Unified Memory, 512GB SSD, 4x Thunderbolt 4 ports, compact powerhouse.",
     "gallery": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595044426077-d36d9236d54a?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
@@ -2410,12 +2410,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 670,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=800&q=80",
     "badge": "Esports Tier 1",
     "featured": false,
     "description": "Intel Core i9-14900HX, RTX 4080 12GB (175W), 16\" WQXGA 240Hz PureSight, Legion ColdFront 5.0.",
     "gallery": [
-      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
@@ -2654,12 +2654,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 1420,
     "boughtPastMonth": "1.2k+",
-    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
     "badge": "Spatial Immersion",
     "featured": false,
     "description": "Breakthrough Bose Immersive Audio, world-class noise cancellation, CustomTune acoustic technology.",
     "gallery": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
@@ -3054,12 +3054,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 1820,
     "boughtPastMonth": "1.9k+",
-    "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=800&q=80",
     "badge": "Iconic Rocker",
     "featured": true,
     "description": "True Stereophonic 360-degree sound, 30+ hours portable playtime, IP67 dust and waterproof, Stack Mode.",
     "gallery": [
-      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
@@ -3131,12 +3131,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 940,
     "boughtPastMonth": "820+",
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80",
     "badge": "Podcast Legend",
     "featured": false,
     "description": "Broadcast dynamic microphone with smooth flat frequency response, internal air suspension shock isolation.",
     "gallery": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80"
@@ -3212,12 +3212,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 1630,
     "boughtPastMonth": "1.7k+",
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80",
     "badge": "Action King",
     "featured": false,
     "description": "5.3K 60fps HDR video, HyperSmooth 6.0 video stabilization, dual LCD screens, waterproof down to 33ft.",
     "gallery": [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?auto=format&fit=crop&w=800&q=80"
@@ -3288,12 +3288,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 1290,
     "boughtPastMonth": "1.3k+",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=800&q=80",
     "badge": "60-Hr Battery",
     "featured": false,
     "description": "Signature 42mm audiophile transducer, insane 60-hour battery life, Adaptive Noise Cancellation, aptX Adaptive.",
     "gallery": [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
@@ -3518,12 +3518,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1340,
     "boughtPastMonth": "1.4k+",
-    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80",
     "badge": "Vlog Miracle",
     "featured": true,
     "description": "1-inch CMOS sensor, 4K 120fps video, 2-inch rotatable OLED touchscreen, 3-axis mechanical stabilization.",
     "gallery": [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?auto=format&fit=crop&w=800&q=80"
@@ -3594,12 +3594,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 620,
     "boughtPastMonth": "480+",
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1520170350707-b2da59970118?auto=format&fit=crop&w=800&q=80",
     "badge": "Danish Luxury",
     "featured": false,
     "description": "Waterproof portable Bluetooth speaker, 360-degree True360 sound, pearl-blasted aluminum, Alexa built-in.",
     "gallery": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520170350707-b2da59970118?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
@@ -3768,12 +3768,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 640,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=800&q=80",
     "badge": "All-Weather Tech",
     "featured": true,
     "description": "3-Layer GORE-TEX Pro membrane, fully seam-sealed, YKK AquaGuard watertight zippers, articulated storm hood.",
     "gallery": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80"
@@ -4045,12 +4045,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 510,
     "boughtPastMonth": "460+",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
     "badge": "Swiss Precision",
     "featured": true,
     "description": "Swiss ETA 2824-2 automatic movement, 316L surgical steel, double-domed sapphire crystal with AR, exhibition back.",
     "gallery": [
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80"
@@ -4482,12 +4482,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 580,
     "boughtPastMonth": "510+",
-    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
     "badge": "Summer Luxury",
     "featured": false,
     "description": "100% Normandy washed flax linen, mother of pearl buttons, dual chest utility pockets, camp collar.",
     "gallery": [
-      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
@@ -4569,12 +4569,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 870,
     "boughtPastMonth": "780+",
-    "image": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80",
     "badge": "Utility Grail",
     "featured": false,
     "description": "Cordura stretch nylon canvas, DWR water-resistant, hidden magnetic stash pockets, articulated knee darts.",
     "gallery": [
-      "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
@@ -4656,12 +4656,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 1120,
     "boughtPastMonth": "1.3k+",
-    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80",
     "badge": "Street Icon",
     "featured": true,
     "description": "Full-grain Italian nappa leather, vintage yellowed rubber cupsole, perforated toe box, terry towel lining.",
     "gallery": [
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
@@ -4747,12 +4747,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 890,
     "boughtPastMonth": "940+",
-    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&w=800&q=80",
     "badge": "Winter Essential",
     "featured": false,
     "description": "100% Grade-A Mongolian cashmere, thick 7-gauge fisherman rib knit, snug warmth without bulk.",
     "gallery": [
-      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"
@@ -4831,12 +4831,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 670,
     "boughtPastMonth": "720+",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=800&q=80",
     "badge": "Micro-Adjust",
     "featured": false,
     "description": "Full-grain Italian bridle leather, ratcheting magnetic quick-release buckle, 32 micro-adjustments.",
     "gallery": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80"
@@ -4910,12 +4910,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 1280,
     "boughtPastMonth": "1.4k+",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=800&q=80",
     "badge": "Urban Sling",
     "featured": false,
     "description": "Ballistic 840D recycled nylon, Fidlock V-buckle magnetic strap, dedicated padded sunglasses slot.",
     "gallery": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80"
@@ -4989,12 +4989,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 14200,
     "boughtPastMonth": "18k+",
-    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
     "badge": "#1 Bestseller",
     "featured": true,
     "description": "An easy and proven way to build good habits and break bad ones. Hardcover gilded ribbon edition.",
     "gallery": [
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
@@ -5078,12 +5078,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 8900,
     "boughtPastMonth": "9.2k+",
-    "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
     "badge": "Modern Classic",
     "featured": true,
     "description": "The exclusive biography by Walter Isaacson. Embossed bonded leather collector slipcase.",
     "gallery": [
-      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=800&q=80"
@@ -5163,12 +5163,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 6420,
     "boughtPastMonth": "5.1k+",
-    "image": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3edd7?auto=format&fit=crop&w=800&q=80",
     "badge": "The Big Data Bible",
     "featured": true,
     "description": "The definitive guide to distributed systems, replication, partitioning, consistency, and storage engines.",
     "gallery": [
-      "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1532012164546-f432f2e3edd7?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80"
@@ -5239,12 +5239,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 9100,
     "boughtPastMonth": "7.4k+",
-    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80",
     "badge": "Developer Classic",
     "featured": false,
     "description": "A handbook of agile software craftsmanship by Robert C. Martin (Uncle Bob). Clean code principles.",
     "gallery": [
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
@@ -5315,12 +5315,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1280,
     "boughtPastMonth": "1.1k+",
-    "image": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
     "badge": "Collector Tome",
     "featured": true,
     "description": "Massive oversized coffee-table hardcover, 368 pages of Night City architecture, vehicles, and concept art.",
     "gallery": [
-      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80"
@@ -5485,12 +5485,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 640,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
     "badge": "Analog to Cloud",
     "featured": true,
     "description": "Pen+ smart pen with Ncoded paper notebook: digitizes your handwriting into editable vector text in real time.",
     "gallery": [
-      "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80"
@@ -5566,12 +5566,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 16200,
     "boughtPastMonth": "22k+",
-    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
     "badge": "Financial Classic",
     "featured": true,
     "description": "Timeless lessons on wealth, greed, and happiness by Morgan Housel. Essential modern financial literacy.",
     "gallery": [
-      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
@@ -5651,12 +5651,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 8900,
     "boughtPastMonth": "7.1k+",
-    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
     "badge": "Productivity Bible",
     "featured": false,
     "description": "Cal Newport’s guide to mastering focused distraction-free cognitive performance in a distracted world.",
     "gallery": [
-      "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=800&q=80"
@@ -5727,12 +5727,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 3420,
     "boughtPastMonth": "2.9k+",
-    "image": "https://images.unsplash.com/photo-1506466010722-395aa2bef877?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80",
     "badge": "Sci-Fi Masterpiece",
     "featured": true,
     "description": "Frank Herbert's iconic masterpiece. Deluxe slipcase with foil stamping, stained edges, and illustrated poster.",
     "gallery": [
-      "https://images.unsplash.com/photo-1506466010722-395aa2bef877?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
@@ -5803,12 +5803,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1150,
     "boughtPastMonth": "1.2k+",
-    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80",
     "badge": "Japanese Craft",
     "featured": true,
     "description": "Japanese MD paper resistant to fountain pen bleedthrough, vegetable-tanned goat leather cover, lies 180° flat.",
     "gallery": [
-      "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80"
@@ -5892,12 +5892,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 5420,
     "boughtPastMonth": "4.2k+",
-    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
     "badge": "UX Bible",
     "featured": false,
     "description": "Don Norman’s ultimate treatise on human-centered design, affordances, signifiers, and mental models.",
     "gallery": [
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
@@ -5968,12 +5968,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1890,
     "boughtPastMonth": "2.1k+",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1585336261026-418668702330?auto=format&fit=crop&w=800&q=80",
     "badge": "Architect Tool",
     "featured": true,
     "description": "Full metal brass body, hexagonal barrel, knurled grip, fixed 4mm lead guidance sleeve, matte finish.",
     "gallery": [
-      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585336261026-418668702330?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1569683795645-b62e50fbf103?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80"
@@ -6053,12 +6053,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 19400,
     "boughtPastMonth": "15k+",
-    "image": "https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=800&q=80",
     "badge": "Global Sensation",
     "featured": false,
     "description": "Yuval Noah Harari’s sweeping exploration of how an insignificant ape became the master of planet Earth.",
     "gallery": [
-      "https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
@@ -6138,12 +6138,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 11200,
     "boughtPastMonth": "10k+",
-    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=800&q=80",
     "badge": "Startup Bible",
     "featured": false,
     "description": "Peter Thiel’s legendary Stanford lectures on building businesses that create new things rather than copying.",
     "gallery": [
-      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
@@ -6528,12 +6528,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 580,
     "boughtPastMonth": "490+",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1546938576-6e6a64f317cc?auto=format&fit=crop&w=800&q=80",
     "badge": "Architectural Carry",
     "featured": true,
     "description": "Diamond ripstop recycled Baida nylon, magnetic pre-molded opening, YKK water-resistant zips, padded 16\" slot.",
     "gallery": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1546938576-6e6a64f317cc?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80"
@@ -6604,12 +6604,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 790,
     "boughtPastMonth": "680+",
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80",
     "badge": "Clean Workspace",
     "featured": false,
     "description": "Customizable modular dividers, 10W wireless charging embedded leather lid, internal storage valise.",
     "gallery": [
-      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
@@ -6680,12 +6680,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1340,
     "boughtPastMonth": "1.4k+",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de58a5b?auto=format&fit=crop&w=800&q=80",
     "badge": "Zero Glare",
     "featured": true,
     "description": "Asymmetric optical design, wireless rotary control puck, back ambient back-light, curved monitor clamp.",
     "gallery": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1517430816045-df4b7de58a5b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
@@ -6751,12 +6751,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 870,
     "boughtPastMonth": "780+",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
     "badge": "Artisan Desk",
     "featured": true,
     "description": "American black walnut solid wood ledge, German Merino wool felt mat, natural cork base.",
     "gallery": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80"
@@ -6826,12 +6826,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 620,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1544716278-e513176f20b5?auto=format&fit=crop&w=800&q=80",
     "badge": "Port Monster",
     "featured": true,
     "description": "18 ports of extreme connectivity, 98W host laptop charging, 2.5GbE Ethernet, 8K monitor support.",
     "gallery": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544716278-e513176f20b5?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
@@ -6897,12 +6897,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 940,
     "boughtPastMonth": "820+",
-    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=800&q=80",
     "badge": "Heavy Duty Arm",
     "featured": true,
     "description": "Patented Constant Force lift technology, polished aluminum unibody, supports monitors up to 34\" and 11.3kg.",
     "gallery": [
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
@@ -6973,12 +6973,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 1250,
     "boughtPastMonth": "1.4k+",
-    "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=800&q=80",
     "badge": "Hot Coffee Forever",
     "featured": true,
     "description": "Keeps your coffee or tea at your exact chosen drinking temperature (120°F - 145°F) for 80 minutes.",
     "gallery": [
-      "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
@@ -7049,12 +7049,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 890,
     "boughtPastMonth": "940+",
-    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=800&q=80",
     "badge": "Horween Armor",
     "featured": false,
     "description": "Full-grain Chicago Horween leather, 10ft drop protection, integrated MagSafe neodymium magnet ring.",
     "gallery": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80"
@@ -7129,12 +7129,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 720,
     "boughtPastMonth": "680+",
-    "image": "https://images.unsplash.com/photo-1580481077195-c3a821a58875?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1580481077111-9e79b9b1d8e1?auto=format&fit=crop&w=800&q=80",
     "badge": "Ergonomic King",
     "featured": true,
     "description": "Designed by Bill Stumpf & Jeff Weber. Pixelated Support matrix, fully adjustable arms, 12-year warranty.",
     "gallery": [
-      "https://images.unsplash.com/photo-1580481077195-c3a821a58875?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1580481077111-9e79b9b1d8e1?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80"
@@ -7200,12 +7200,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 940,
     "boughtPastMonth": "820+",
-    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1609592426867-0c7f12e873d9?auto=format&fit=crop&w=800&q=80",
     "badge": "Cyberpunk Power",
     "featured": true,
     "description": "Transparent cyberpunk casing, IPS smart digital display showing battery voltage, thermals, and wattage.",
     "gallery": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609592426867-0c7f12e873d9?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80"
@@ -7271,12 +7271,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 710,
     "boughtPastMonth": "630+",
-    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=800&q=80",
     "badge": "Road Ready",
     "featured": false,
     "description": "Qi2 magnetic fast wireless charging, brushed aluminum frame, 360-degree ball joint, air vent clamp.",
     "gallery": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
@@ -7420,12 +7420,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 640,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80",
     "badge": "Ambient Art",
     "featured": true,
     "description": "Gradient color blending technology, 16 million colors + tunable whites, Bluetooth + Zigbee, minimalist silhouette.",
     "gallery": [
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
@@ -7498,12 +7498,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1140,
     "boughtPastMonth": "1.2k+",
-    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
     "badge": "Pure Living",
     "featured": true,
     "description": "Destroys formaldehyde permanently, HEPA H13 fully sealed filtration, heats in winter, cools in summer.",
     "gallery": [
-      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
@@ -7576,12 +7576,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 520,
     "boughtPastMonth": "480+",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
     "badge": "Barista Luxury",
     "featured": true,
     "description": "Brushed stainless steel unibody by Breville, automated steam wand with 8 milk textures, Centrifusion extraction.",
     "gallery": [
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
@@ -7648,12 +7648,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 1420,
     "boughtPastMonth": "1.6k+",
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=800&q=80",
     "badge": "Acoustic Intelligence",
     "featured": false,
     "description": "High-excursion woofer, beamforming array of five tweeters, Spatial Audio with Dolby Atmos, room sensing.",
     "gallery": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
@@ -7729,12 +7729,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 870,
     "boughtPastMonth": "780+",
-    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=800&q=80",
     "badge": "Countertop Master",
     "featured": true,
     "description": "Element iQ system with 6 independent quartz heating elements, 13 smart cooking presets, dual-speed convection fan.",
     "gallery": [
-      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
@@ -7873,12 +7873,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 830,
     "boughtPastMonth": "790+",
-    "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
     "badge": "Modular Glow",
     "featured": true,
     "description": "Modular backlit LED smart light bars, 16 million colors, Rhythm music visualizer, Thread & Matter enabled.",
     "gallery": [
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
@@ -7949,12 +7949,12 @@ const PRODUCTS = [
     "rating": 4.7,
     "reviewCount": 740,
     "boughtPastMonth": "680+",
-    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80",
     "badge": "Keyless Entry",
     "featured": false,
     "description": "Replaces only the interior thumbturn: keep your existing exterior door key and deadbolt hardware.",
     "gallery": [
-      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
@@ -8026,12 +8026,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 620,
     "boughtPastMonth": "540+",
-    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
     "badge": "Steam Artisan",
     "featured": true,
     "description": "Japanese precision steam technology, 5cc water boiler, proprietary temperature curves for golden toast.",
     "gallery": [
-      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
@@ -8103,12 +8103,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 1420,
     "boughtPastMonth": "1.6k+",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80",
     "badge": "Barista Standard",
     "featured": true,
     "description": "Counterbalanced handle, precision fluted gooseneck spout, variable degree-by-degree temperature dial.",
     "gallery": [
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
@@ -8180,12 +8180,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 620,
     "boughtPastMonth": "580+",
-    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=800&q=80",
     "badge": "Climate Intelligence",
     "featured": false,
     "description": "Brushed zinc unibody, built-in air quality monitor, radar occupancy sensing, includes SmartSensor.",
     "gallery": [
-      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
@@ -8252,12 +8252,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 890,
     "boughtPastMonth": "940+",
-    "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
     "badge": "TV Light Sync",
     "featured": true,
     "description": "Syncs smart lights with what’s on your TV screen: 4 HDMI inputs, 4K 60Hz HDR10+ and Dolby Vision.",
     "gallery": [
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
@@ -8324,12 +8324,12 @@ const PRODUCTS = [
     "rating": 4.9,
     "reviewCount": 760,
     "boughtPastMonth": "710+",
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
     "badge": "Dolby Atmos Master",
     "featured": true,
     "description": "Revolutionary acoustic architecture featuring six drivers, directional audio, Dolby Atmos Spatial Audio.",
     "gallery": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
@@ -8405,12 +8405,12 @@ const PRODUCTS = [
     "rating": 4.8,
     "reviewCount": 480,
     "boughtPastMonth": "410+",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
     "badge": "Clinical Health",
     "featured": false,
     "description": "Segmental body composition, 6-lead ECG, nerve health tracking, vascular age, retractable glass handle.",
     "gallery": [
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
@@ -9858,6 +9858,7 @@ function openQuickView(productId, triggerElement) {
     modal.hidden = false;
     modal.classList.add('active');
     backdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
     AppState.activeOverlay = 'quick-view';
     const closeBtn = document.getElementById('closeQuickViewBtn');
     if (closeBtn) closeBtn.focus();
@@ -9978,6 +9979,7 @@ function openCheckoutModal(triggerElement, directPurchase = null) {
   modal.hidden = false;
   modal.classList.add('active');
   if (backdrop) backdrop.classList.add('active');
+  document.body.style.overflow = 'hidden';
   AppState.activeOverlay = 'checkout';
 
   // Wire GPS Auto-detect and Map Picker triggers
@@ -10052,49 +10054,12 @@ function handleCheckoutSubmit(e, directPurchase = null, totalAmount = 0, itemsLi
       renderCartDrawer();
     }
 
-    // Show unmistakable demo success view
-    const content = document.getElementById('checkoutModalContent');
-    if (content) {
-      content.innerHTML = `
-        <div class="checkout-success-view">
-          <div class="success-icon-badge">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
-          </div>
-          <span class="section-tag" style="color:var(--color-success);">DEMO TRANSACTION COMPLETED</span>
-          <h3 class="section-heading" style="font-size:24px;">Thank You, ${escapeHtml(nameInput.value.trim())}!</h3>
-          <p style="font-size:14px; color:var(--color-text-muted); max-width:440px;">
-            Your simulated order has been generated successfully. No actual currency was debited.
-          </p>
-          <div class="order-ref-pill">Order Reference: ${orderRef}</div>
-          <p style="font-size:13px; color:var(--color-text-muted); margin-bottom:18px;">
-            Simulated Amount: <strong style="color:#fff;">${formatCurrency(totalAmount)}</strong> • Destination: <strong style="color:var(--color-accent);">${escapeHtml(destinationVal)}</strong>
-          </p>
-          <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-            <button type="button" class="btn btn-primary" id="btnLiveTrackNow" style="background:linear-gradient(135deg, var(--color-primary), var(--color-accent));border:none;box-shadow:0 4px 18px rgba(139,92,246,0.35);">
-              🚚 Live Track Delivery in Real-Time
-            </button>
-            <button type="button" class="btn btn-outline" id="checkoutDoneBtn">
-              Continue Shopping
-            </button>
-          </div>
-        </div>
-      `;
-
-      const doneBtn = document.getElementById('checkoutDoneBtn');
-      if (doneBtn) {
-        doneBtn.addEventListener('click', closeAllOverlays);
-      }
-
-      const trackBtn = document.getElementById('btnLiveTrackNow');
-      if (trackBtn) {
-        trackBtn.addEventListener('click', () => {
-          openOrderTrackingModal(order);
-        });
-      }
-    }
-
-    showToast(`Order ${orderRef} placed! Click Live Track to view shipment.`, 'success');
-  }, 600);
+    closeAllOverlays();
+    showToast(`🎉 Order ${orderRef} confirmed! Launching real-time live tracking...`, 'success');
+    setTimeout(() => {
+      openOrderTrackingModal(order);
+    }, 200);
+  }, 450);
 }
 
 /**
@@ -10119,11 +10084,12 @@ function openAuthModal(triggerElement = null, initialTab = 'register') {
   if (AppState.user && AppState.user.isLoggedIn) {
     if (title) title.textContent = 'Account Profile';
     if (subtitle) subtitle.textContent = 'Manage your verified account and delivery addresses.';
-    if (tabsRow) tabsRow.hidden = true;
-    if (regView) regView.hidden = true;
-    if (loginView) loginView.hidden = true;
+    if (tabsRow) { tabsRow.hidden = true; tabsRow.style.display = 'none'; }
+    if (regView) { regView.hidden = true; regView.style.display = 'none'; }
+    if (loginView) { loginView.hidden = true; loginView.style.display = 'none'; }
     if (profileView) {
       profileView.hidden = false;
+      profileView.style.display = 'block';
       const avatar = document.getElementById('activeProfileAvatar');
       const nameEl = document.getElementById('activeProfileName');
       const emailEl = document.getElementById('activeProfileEmail');
@@ -10141,14 +10107,15 @@ function openAuthModal(triggerElement = null, initialTab = 'register') {
     // Visitor is NOT logged in: show Create Account or Sign In tab
     if (title) title.textContent = 'Customer Account';
     if (subtitle) subtitle.textContent = 'Create an account or sign in with Gmail to place orders & track deliveries live.';
-    if (tabsRow) tabsRow.hidden = false;
-    if (profileView) profileView.hidden = true;
+    if (tabsRow) { tabsRow.hidden = false; tabsRow.style.display = 'flex'; }
+    if (profileView) { profileView.hidden = true; profileView.style.display = 'none'; }
     switchAuthTab(initialTab);
   }
 
   modal.hidden = false;
   modal.classList.add('active');
   if (backdrop) backdrop.classList.add('active');
+  document.body.style.overflow = 'hidden';
   AppState.activeOverlay = 'auth';
 }
 
@@ -10161,15 +10128,15 @@ function switchAuthTab(tabName) {
   if (tabName === 'login') {
     if (tabReg) { tabReg.classList.remove('active'); tabReg.setAttribute('aria-selected', 'false'); }
     if (tabLog) { tabLog.classList.add('active'); tabLog.setAttribute('aria-selected', 'true'); }
-    if (regView) regView.hidden = true;
-    if (logView) logView.hidden = false;
+    if (regView) { regView.hidden = true; regView.style.display = 'none'; }
+    if (logView) { logView.hidden = false; logView.style.display = 'block'; }
     const loginEmail = document.getElementById('loginEmailInput');
     if (loginEmail) loginEmail.focus();
   } else {
     if (tabLog) { tabLog.classList.remove('active'); tabLog.setAttribute('aria-selected', 'false'); }
     if (tabReg) { tabReg.classList.add('active'); tabReg.setAttribute('aria-selected', 'true'); }
-    if (logView) logView.hidden = true;
-    if (regView) regView.hidden = false;
+    if (logView) { logView.hidden = true; logView.style.display = 'none'; }
+    if (regView) { regView.hidden = false; regView.style.display = 'block'; }
     const regName = document.getElementById('regNameInput');
     if (regName) regName.focus();
   }
@@ -10183,16 +10150,17 @@ function registerCustomer(userData) {
   }
 
   const existingUsers = Storage.get('nova-registered-users', []);
+  const cleanEmail = email.trim().toLowerCase();
   const userRecord = {
     name: name.trim(),
-    email: email.trim(),
+    email: cleanEmail,
     password: password || 'Nova@2026',
     address: address ? address.trim() : 'Badlapur, Uttar Pradesh',
     phone: phone ? phone.trim() : '',
     createdAt: new Date().toISOString()
   };
 
-  const idx = existingUsers.findIndex(u => u.email.toLowerCase() === userRecord.email.toLowerCase());
+  const idx = existingUsers.findIndex(u => u.email.toLowerCase() === cleanEmail);
   if (idx >= 0) existingUsers[idx] = userRecord;
   else existingUsers.push(userRecord);
   Storage.set('nova-registered-users', existingUsers);
@@ -10225,19 +10193,37 @@ function signInCustomer(email, password) {
     return;
   }
 
+  const cleanEmail = email.trim().toLowerCase();
   const existingUsers = Storage.get('nova-registered-users', []);
-  let matchedUser = existingUsers.find(u => u.email.toLowerCase() === email.trim().toLowerCase());
+  let matchedUser = existingUsers.find(u => u.email.toLowerCase() === cleanEmail);
 
-  if (!matchedUser) {
-    const defaultName = email.split('@')[0].replace(/[._-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) || 'Customer';
+  // If prefilled demo credentials used and not yet in storage, auto seed demo record
+  if (!matchedUser && (cleanEmail === 'sharmadivyanshdev@gmail.com' || cleanEmail.includes('demo'))) {
     matchedUser = {
-      name: defaultName,
-      email: email.trim(),
+      name: 'Divyansh Dev Sharma',
+      email: cleanEmail,
+      password: 'Nova@2026',
       address: 'Badlapur, Uttar Pradesh',
-      phone: ''
+      phone: '+91 98765 43210',
+      createdAt: new Date().toISOString()
     };
     existingUsers.push(matchedUser);
     Storage.set('nova-registered-users', existingUsers);
+  }
+
+  if (!matchedUser) {
+    showToast('❌ Account not found. Please click "Create Account" to register first!', 'error');
+    switchAuthTab('register');
+    const regEmail = document.getElementById('regEmailInput');
+    if (regEmail) regEmail.value = email;
+    return;
+  }
+
+  if (password && matchedUser.password && matchedUser.password !== password) {
+    showToast('❌ Incorrect password! Please check and try again.', 'error');
+    const passInput = document.getElementById('loginPasswordInput');
+    if (passInput) passInput.focus();
+    return;
   }
 
   // Set active logged-in session
@@ -10287,6 +10273,7 @@ function openMapPickerModal() {
   modal.hidden = false;
   modal.classList.add('active');
   if (backdrop) backdrop.classList.add('active');
+  document.body.style.overflow = 'hidden';
   AppState.activeOverlay = 'map';
 
   const addressText = document.getElementById('mapSelectedAddressText');
@@ -10526,11 +10513,34 @@ function openOrderTrackingModal(order = null) {
   const orderIdEl = document.getElementById('trackingOrderId');
   const destEl = document.getElementById('trackingDestTitle');
   const vanEl = document.getElementById('movingDeliveryVan');
+  const pkgBox = document.getElementById('trackingPackageBox');
 
   if (orderIdEl) orderIdEl.textContent = activeOrder.id;
   if (destEl) {
     const destShort = (activeOrder.destination || 'Delivery Destination').split('•')[0].trim();
     destEl.textContent = destShort || 'Delivery Destination';
+  }
+
+  // Render ordered items & recipient details in tracking modal
+  if (pkgBox) {
+    const items = activeOrder.items || [];
+    pkgBox.innerHTML = `
+      <div class="tracking-package-header">
+        <span>📦 PACKAGE DISPATCHED (${items.reduce((sum, i) => sum + (i.qty || 1), 0)} items)</span>
+        <span style="color:#fff;">${formatCurrency(activeOrder.totalAmount || 0)}</span>
+      </div>
+      <div class="tracking-items-mini-list">
+        ${items.map(it => `
+          <div class="tracking-item-mini-row">
+            <span><strong>${escapeHtml(it.name || 'Product')}</strong> ${it.color && it.color !== 'Standard' ? `(${escapeHtml(it.color)})` : ''} × ${it.qty || 1}</span>
+            <span style="color:var(--color-accent);font-weight:700;">${formatCurrency((it.price || 0) * (it.qty || 1))}</span>
+          </div>
+        `).join('')}
+      </div>
+      <div style="font-size:11px;color:var(--color-text-muted);margin-top:8px;">
+        📍 <strong>Deliver to:</strong> ${escapeHtml(activeOrder.customerName)} • ${escapeHtml(activeOrder.destination)}
+      </div>
+    `;
   }
 
   // Trigger delivery van transit animation
@@ -10543,6 +10553,7 @@ function openOrderTrackingModal(order = null) {
   modal.hidden = false;
   modal.classList.add('active');
   if (backdrop) backdrop.classList.add('active');
+  document.body.style.overflow = 'hidden';
   AppState.activeOverlay = 'tracking';
 }
 
@@ -10597,6 +10608,7 @@ Thank you for shopping at NOVA — The Future of Shopping!
    8. OVERLAY CONTROL & ACCESSIBILITY MANAGEMENT
    ========================================================================== */
 function closeAllOverlays() {
+  document.body.style.overflow = '';
   // Drawers
   const cartDrawer = document.getElementById('cartDrawer');
   const cartBackdrop = document.getElementById('cartBackdrop');
@@ -10869,6 +10881,7 @@ function openCartDrawer(triggerElement) {
     drawer.hidden = false;
     drawer.classList.add('active');
     backdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
     AppState.activeOverlay = 'cart';
     const closeBtn = document.getElementById('closeCartBtn');
     if (closeBtn) closeBtn.focus();
@@ -10886,6 +10899,7 @@ function openWishlistDrawer(triggerElement) {
     drawer.hidden = false;
     drawer.classList.add('active');
     backdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
     AppState.activeOverlay = 'wishlist';
     const closeBtn = document.getElementById('closeWishlistBtn');
     if (closeBtn) closeBtn.focus();

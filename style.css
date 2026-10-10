@@ -84,6 +84,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+[hidden] {
+  display: none !important;
+}
+
+.auth-view-panel[hidden] {
+  display: none !important;
+}
+
 body {
   min-height: 100vh;
   background-color: var(--color-bg);
@@ -1276,17 +1284,15 @@ button {
   gap: var(--space-2);
   overflow-x: auto;
   padding-bottom: 4px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-border) transparent;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   -webkit-overflow-scrolling: touch;
 }
 
 .category-chips-scroll::-webkit-scrollbar {
-  height: 4px;
-}
-.category-chips-scroll::-webkit-scrollbar-thumb {
-  background-color: var(--color-border);
-  border-radius: 4px;
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .category-chip {
@@ -1404,27 +1410,29 @@ button {
    -------------------------------------------------------------------------- */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-4);
+  width: 100%;
 }
 
-/* Responsive Grid Rules */
-@media (max-width: 1279px) {
+/* Responsive Grid Rules: 3 columns on standard laptops (1366px, 1280px) to prevent right-edge clipping */
+@media (max-width: 1399px) {
   .product-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .product-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 520px) {
   .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 }
 
@@ -1437,6 +1445,10 @@ button {
   display: flex;
   flex-direction: column;
   position: relative;
+  min-width: 0;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
   transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
@@ -2226,9 +2238,9 @@ button {
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  background-color: rgba(6, 7, 12, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   z-index: 1050;
   opacity: 0;
   visibility: hidden;
@@ -4273,6 +4285,44 @@ button {
 .courier-actions {
   display: flex;
   gap: 8px;
+}
+
+/* Package Dispatched Items Card */
+.tracking-package-box {
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.tracking-package-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--color-accent);
+}
+
+.tracking-items-mini-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.tracking-item-mini-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--color-text);
+  padding-bottom: 4px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
 }
 
 .tracking-timeline {
