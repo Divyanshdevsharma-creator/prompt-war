@@ -1925,6 +1925,49 @@ button {
   font-size: 12px;
 }
 
+.footer-creator {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.footer-creator strong {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.creator-sep {
+  opacity: 0.35;
+  font-size: 10px;
+}
+
+.creator-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.creator-link svg {
+  display: inline-block;
+  opacity: 0.75;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.creator-link:hover {
+  color: var(--color-accent);
+}
+
+.creator-link:hover svg {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
 /* --------------------------------------------------------------------------
    13. MOBILE FIXED BOTTOM NAVIGATION BAR
    -------------------------------------------------------------------------- */
